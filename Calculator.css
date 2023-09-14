@@ -1,7 +1,7 @@
       *{
             margin: 0;
             padding: 0;
-            font-size: 18px;
+            font-size: 20px;
             box-sizing: border-box;
         }
 
@@ -13,24 +13,27 @@
         }
         .container{
             display: block;
-            width: 320px;
-            background-color: antiquewhite;
+            width: 360px;
+            background-color: skyblue;
             border: 1px solid #333;
+            border-radius: 10px;
         }
         .answer{
             border: none;
             width: 100%;
             height: 5rem;
-            background-color: #333;
-            color: #d7ff5f;
+            background-color: #355;
+            color: #d7ff57;
             font-size: 60px;
             padding: 0 10px;
             box-sizing: border-box;
+            border-radius: 10px;
         }
         .clear, .equal{
-            width: 160px;
+            width: 180px;
             background-color: #585858;
             cursor: pointer;
+            border-radius: 8px;
         }
         .clear:hover, .equal:hover{
             background-color: blueviolet;
@@ -39,8 +42,9 @@
             background-color: darkmagenta;
         }
         .buttons{
-            width: 80px;
+            width: 90px;
             cursor: pointer;
+            border-radius: 8px;
         }
         .buttons:hover{
             background-color: #ddd;
@@ -50,6 +54,6 @@
         }
         input{
             margin-right: -5px;
-            height: 50px;
+            height: 65px;
             border: 1px solid #333;
         }
